@@ -1,0 +1,26 @@
+/*QMenu*/
+QMenu {
+    padding: 5px;
+    background: white;
+    border: 1px solid #ccd1d9;
+}
+
+QMenu::item {
+    padding: 0px 40px 0px 30px;
+    height: 25px;
+}
+
+QMenu::item:selected:enabled {
+    background-color: #3bafda;
+    color: white;
+}
+
+QMenu::item:selected:! enabled {
+    background: transparent;
+}
+
+QMenu::separator {
+    height: 1px;
+    background: lightgray;
+    margin: 5px 0px 5px 0px;
+}

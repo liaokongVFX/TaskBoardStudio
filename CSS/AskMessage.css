@@ -1,0 +1,69 @@
+* {
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+QFrame#body_frame {
+    background-color: #ffffff;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding-bottom: 6px;
+}
+
+QFrame#header_frame {
+    background-color: #e6e9ed;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+QLabel#header_label{
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    padding-left: 5px;
+}
+
+QPushButton#close_btn {
+    background-color: #e6e9ed;
+    border: transparent;
+    padding-right: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+}
+
+QPushButton#close_btn:hover {
+    color: #4fc1e9;
+}
+
+QLabel#text_label{
+    margin: 8px 8px 25px 8px;
+    font-size: 12px;
+}
+
+QPushButton#yes_btn,QPushButton#no_btn {
+    min-width: 65px;
+    min-height: 25px;
+    background-color: #ffffff;
+    border: 1px solid #aab2bd;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333333;
+    border-radius: 5px;
+}
+
+QPushButton#yes_btn:hover,QPushButton#no_btn:hover {
+    color: #ffffff;
+    background-color: #4fc1e9;
+    border: transparent;
+}
+
+QPushButton#yes_btn:pressed,QPushButton#no_btn:pressed {
+    background: qradialgradient(cx:0.5,
+    cy: 0.5,
+    fx: 0.5,
+    fy: 0.5,
+    radius: 1.5,
+    stop: 0.2 #4fc1e9,
+    stop: 0.8 #3bafda);
+}

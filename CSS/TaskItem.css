@@ -1,0 +1,83 @@
+* {
+    font-family: "Microsoft YaHei";
+    outline: none;
+}
+
+QFrame {
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+/*QCheckBox*/
+QCheckBox {
+    padding: 10px 0 2px 2px;
+    font-size: 16px;
+    color: #333333;
+    font-weight: 700;
+}
+
+QCheckBox::indicator:unchecked {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #ccd1d9;
+    background-color: #fff;
+
+}
+
+QCheckBox::indicator:unchecked:hover {
+    border: 1px solid #3bafda;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #fff;
+    image: url('%PATH%/img/checkbox_checked.png');
+}
+
+/*QMenuBar*/
+QMenuBar{
+    background-color: #fff;
+    border: transparent;
+}
+
+QMenuBar::item{
+    image: url("%PATH%/img/task_edit.png");
+}
+
+QMenuBar::item:selected{
+    image: url("%PATH%/img/task_edit_hover.png");
+}
+
+QMenuBar::item:pressed {
+    background-color: #3bafda;
+    image: url("%PATH%/img/task_edit_pressed.png");
+    /*border: 1px solid #3bafda;*/
+    border-radius: 2px;
+}
+
+
+/*QMenu*/
+QMenu{
+    padding:5px;
+    background:white;
+    border:1px solid #ccd1d9;
+ }
+
+QMenu::item{
+    padding:0px 40px 0px 30px;
+    height:25px;
+}
+
+QMenu::item:selected:enabled{
+    background-color: #3bafda;
+    color:white;
+}
+
+QMenu::item:selected:!enabled{
+    background:transparent;
+}
+
+QMenu::separator{
+    height:1px;
+    background:lightgray;
+    margin:5px 0px 5px 0px;
+}

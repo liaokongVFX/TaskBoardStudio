@@ -1,0 +1,126 @@
+* {
+    font-family: "Microsoft YaHei";
+}
+
+QFrame#head_frame {
+    background-color: #e6e9ed;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    padding: 5px;
+}
+
+QWidget{
+    border: transparent;
+}
+
+QWidget#scrollAreaWidgetContents{
+    background-color: #2d353d;
+    border: transparent;
+}
+
+QPushButton#add_classify_btn {
+    min-height: 25px;
+    background-color: rgba(100,110,120,0.2);
+    border: transparent;
+    border-radius: 5px;
+    font-size: 12px;
+    color: #8c8c8c;
+}
+
+QPushButton#add_classify_btn:hover{
+    color: #4fc1e9;
+}
+
+QPushButton#min_btn {
+    background-color: #e6e9ed;
+    border: transparent;
+    max-height: 12px;
+    max-width: 12px;
+    image: url("%PATH%/img/min_btn.png");
+    margin-right: 15px;
+    padding-bottom: 2px;
+}
+
+QPushButton#min_btn:hover {
+    image: url("%PATH%/img/min_btn_hover.png");
+}
+
+QPushButton#max_btn {
+    background-color: #e6e9ed;
+    border: transparent;
+    max-height: 15px;
+    max-width: 15px;
+    image: url("%PATH%/img/max_btn.png");
+    margin-right: 15px;
+}
+
+QPushButton#max_btn:hover {
+    image: url("%PATH%/img/max_btn_hover.png");
+}
+
+QPushButton#close_btn {
+    background-color: #e6e9ed;
+    border: transparent;
+    max-height: 11px;
+    max-width: 11px;
+    image: url("%PATH%/img/close_btn.png");
+    margin-right: 15px;
+}
+
+QPushButton#close_btn:hover {
+    image: url("%PATH%/img/close_btn_hover.png");
+}
+
+QLabel#title_label{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+/*QScrollBar*/
+QScrollBar:vertical {
+    padding-top: 0;
+    padding-bottom: 0;
+    border: transparent;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #e5e5e5;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #a9b2bd;
+}
+
+QScrollBar::add-line:vertical {
+    background-color: #ccd1d9;
+
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical {
+    background-color: #ccc;
+}
+
+QScrollBar:horizontal {
+
+    padding-top: 0;
+    padding-bottom: 0;
+    border: transparent;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #e5e5e5;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background: #a9b2bd;
+}
+
+QScrollBar::add-line:horizontal {
+    background-color: #ccd1d9;
+}
+
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal {
+    background-color: #ccc;
+}
